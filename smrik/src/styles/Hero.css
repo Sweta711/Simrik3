@@ -1,0 +1,46 @@
+.hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;                 /* Fix hero height (keeps text same) */
+  background-size: cover;
+  background-position: center top;   /* Keeps same layout as your screenshot */
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;           /* Keeps text centered vertically */
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.3);  /* if needed */
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;                /* Your same text style */
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 55px;                    /* same style & size as your screenshot */
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+
+.hero-btn{
+  background: #1b5d67f5;
+  color: white;
+  border-radius: 30px;
+  padding: 12px 25px;
+  border: none;
+  font-weight: bold;
+}
